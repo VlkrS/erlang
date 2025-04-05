@@ -6,8 +6,10 @@ pub type OsFamily {
   Linux
   // The family of Apple operating systems such as macOS and iOS.
   Darwin
-  // The family of operating systems based on the FreeBSD kernel.
+  // The FreeBSD Operating System
   FreeBsd
+  // The OpenBSD Operating System
+  OpenBSD
   // An operating system kernel other than Linux, Darwin, FreeBSD, or NT.
   Other(String)
 }
