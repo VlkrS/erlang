@@ -101,6 +101,8 @@ os_family() ->
             darwin;
         {unix, freebsd} ->
             free_bsd;
+        {unix, openbsd} ->
+           open_bsd;
         {_, Other} ->
             {other, atom_to_binary(Other, utf8)}
     end.
